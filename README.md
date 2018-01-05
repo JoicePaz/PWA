@@ -1,2 +1,5 @@
 # PWA
-PWA to create notes.
+PWA (Progressive web app) to create notes.
+
+
+
