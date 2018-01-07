@@ -7,5 +7,7 @@ Using:
 Web Server for Chrome
 Javascript
 CSS/HTML
+Firebase
+Postman (requisição http)
 
 
