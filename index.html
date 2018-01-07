@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <base href="/PWA/">
+    <base href="/">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +16,31 @@
 
     <meta name="msapplication-TileImage" content="img/icons/icon-144x144.png">
 
-    <title>PWA exercise</title>
+    <title>My Notes</title>
 
     <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/styles.css">
 
     <link rel="manifest" href="manifest.json">
 
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDkh-9iEDaFaZwEfeTRVTmzQFiTSXeSnMs",
+            authDomain: "notes-61f00.firebaseapp.com",
+            databaseURL: "https://notes-61f00.firebaseio.com",
+            projectId: "notes-61f00",
+            storageBucket: "",
+            messagingSenderId: "689337292917"
+        };
+        firebase.initializeApp(config);
+    </script>
+
     <script src="js/object.observe.polyfill.js"></script>
     <script src="js/array.observe.polyfill.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/push.js"></script>
 </head>
 <body class="grey lighten-5 blue-grey-text">
 
